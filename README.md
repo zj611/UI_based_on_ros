@@ -3,8 +3,7 @@
 We have designed a data UI based on ROS (c++), which can facilitate data display and human-machine interaction, such as unmanned driving test scenarios.
 
 
-ROS Node /pub_node publishes data
-ROS node /pub_node publish message such as speed to topic /chatter, while ROS node /receive_and_show receive these messages and show in our desiged UI.
+ROS node /pub_node publishes message such as speed to topic /chatter, while ROS node /receive_and_show receives these messages and show in our desiged UI.
 
 ## rqt_graph
 ![](show_msg/resources/images/rqt.png) 
