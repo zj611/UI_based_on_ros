@@ -11,7 +11,7 @@ using namespace Qt;
 MainWindow::MainWindow(int argc, char** argv, QWidget *parent) : QMainWindow(parent), qnode(argc,argv)
 {
     ui.setupUi(this);
-    this->setWindowTitle(QString::fromLocal8Bit("HMI DESIGNED BY ZHANGJUN"));
+    this->setWindowTitle(QString::fromLocal8Bit("HMI DESIGNED BY ZJ"));
     setWindowIcon(QIcon(":/images/bit.jpeg"));
     ui.view_logging_sub->setModel(qnode.loggingModel_sub());
     QObject::connect(&qnode, SIGNAL(loggingUpdated_sub(QString,float,float,float,double)), this, SLOT(updateLoggingView_sub(QString,float,float,float,double)));

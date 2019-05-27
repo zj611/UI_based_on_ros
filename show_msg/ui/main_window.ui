@@ -75,7 +75,7 @@ padding: 0 1px;
 }</string>
      </property>
      <property name="title">
-      <string>UI DESIGN（BIT-ZJ）</string>
+      <string>UI DESIGN</string>
      </property>
      <widget class="QListView" name="view_logging_sub">
       <property name="geometry">
@@ -273,14 +273,14 @@ padding: 0 1px;
      <widget class="QFrame" name="frame">
       <property name="geometry">
        <rect>
-        <x>10</x>
+        <x>40</x>
         <y>40</y>
-        <width>91</width>
-        <height>31</height>
+        <width>31</width>
+        <height>21</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">image: url(:/images/bit0.jpg);</string>
+       <string notr="true">image: url(:/images/bit.jpeg);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
