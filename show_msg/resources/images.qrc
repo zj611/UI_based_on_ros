@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/" >
-        <file>images/11111.png</file>
-        <file>images/11.jpeg</file>
+
         <file>images/bit.jpeg</file>
         <file>images/bit0.jpg</file>
     </qresource>

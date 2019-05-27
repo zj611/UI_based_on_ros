@@ -11,9 +11,9 @@ using namespace Qt;
 MainWindow::MainWindow(int argc, char** argv, QWidget *parent) : QMainWindow(parent), qnode(argc,argv)
 {
     ui.setupUi(this);
-    this->setWindowTitle(QString::fromLocal8Bit("北京理工大学无人赛车队HMI设计"));
+    this->setWindowTitle(QString::fromLocal8Bit("HMI DESIGNED BY ZHANGJUN"));
     setWindowIcon(QIcon(":/images/bit.jpeg"));
-    ui.view_logging_sub->setModel(qnode.loggingModel_sub());  //数据框
+    ui.view_logging_sub->setModel(qnode.loggingModel_sub());
     QObject::connect(&qnode, SIGNAL(loggingUpdated_sub(QString,float,float,float,double)), this, SLOT(updateLoggingView_sub(QString,float,float,float,double)));
 
 }
@@ -53,7 +53,7 @@ void MainWindow::updateLoggingView_sub(QString state,float speed,float steer_ang
          ui.l_steer_angle->setText(QString::number(steer_angle));
          ui.l_error1->setText(QString::number(error1));
          ui.l_error2->setText(QString::number(error2));
-         ui.view_logging_sub->scrollToBottom();//保持滚动条在底部
+         ui.view_logging_sub->scrollToBottom();
 }
 
 void MainWindow::closeEvent(QCloseEvent *event)

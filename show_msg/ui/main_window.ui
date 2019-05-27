@@ -75,7 +75,7 @@ padding: 0 1px;
 }</string>
      </property>
      <property name="title">
-      <string>北京理工大学无人赛车队数据交互界面（BIT）</string>
+      <string>UI DESIGN（BIT-ZJ）</string>
      </property>
      <widget class="QListView" name="view_logging_sub">
       <property name="geometry">
@@ -95,12 +95,12 @@ padding: 0 1px;
        <rect>
         <x>110</x>
         <y>50</y>
-        <width>61</width>
+        <width>81</width>
         <height>20</height>
        </rect>
       </property>
       <property name="text">
-       <string>车辆状态</string>
+       <string>Vehicle State:</string>
       </property>
      </widget>
      <widget class="QPushButton" name="start">
@@ -132,9 +132,9 @@ padding: 0 1px;
      <widget class="QLineEdit" name="l_speed">
       <property name="geometry">
        <rect>
-        <x>99</x>
+        <x>120</x>
         <y>120</y>
-        <width>125</width>
+        <width>101</width>
         <height>22</height>
        </rect>
       </property>
@@ -142,9 +142,9 @@ padding: 0 1px;
      <widget class="QLineEdit" name="l_steer_angle">
       <property name="geometry">
        <rect>
-        <x>98</x>
+        <x>120</x>
         <y>160</y>
-        <width>125</width>
+        <width>101</width>
         <height>22</height>
        </rect>
       </property>
@@ -172,9 +172,9 @@ padding: 0 1px;
      <widget class="QLineEdit" name="l_state">
       <property name="geometry">
        <rect>
-        <x>181</x>
+        <x>220</x>
         <y>50</y>
-        <width>125</width>
+        <width>101</width>
         <height>22</height>
        </rect>
       </property>
@@ -189,7 +189,7 @@ padding: 0 1px;
        </rect>
       </property>
       <property name="text">
-       <string>滚动更新数据：</string>
+       <string>Update data：</string>
       </property>
      </widget>
      <widget class="QLabel" name="subscribe_4">
@@ -202,7 +202,7 @@ padding: 0 1px;
        </rect>
       </property>
       <property name="text">
-       <string>偏差1：</string>
+       <string>Error1：</string>
       </property>
      </widget>
      <widget class="QLabel" name="subscribe_5">
@@ -215,7 +215,7 @@ padding: 0 1px;
        </rect>
       </property>
       <property name="text">
-       <string>偏差2：</string>
+       <string>Error2：</string>
       </property>
      </widget>
      <widget class="QLabel" name="subscribe_6">
@@ -223,12 +223,12 @@ padding: 0 1px;
        <rect>
         <x>20</x>
         <y>160</y>
-        <width>72</width>
+        <width>101</width>
         <height>22</height>
        </rect>
       </property>
       <property name="text">
-       <string>方向盘转角：</string>
+       <string>Steering angle:</string>
       </property>
      </widget>
      <widget class="QLabel" name="subscribe_2">
@@ -236,12 +236,12 @@ padding: 0 1px;
        <rect>
         <x>22</x>
         <y>120</y>
-        <width>71</width>
+        <width>91</width>
         <height>22</height>
        </rect>
       </property>
       <property name="text">
-       <string>车         速：</string>
+       <string>       Speed:</string>
       </property>
      </widget>
      <widget class="QLabel" name="subscribe_7">
@@ -306,6 +306,8 @@ padding: 0 1px;
      <zorder>subscribe_7</zorder>
      <zorder>subscribe_8</zorder>
      <zorder>frame</zorder>
+     <zorder>l_steer_angle</zorder>
+     <zorder>l_speed</zorder>
     </widget>
    </widget>
   </widget>
